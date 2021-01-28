@@ -1,35 +1,13 @@
 # Tweet Sentiment Analysis
+The purpose of this project is to classify the tweet as positive or negative.
 
->Categorize tweet into positive or negative.
+## Description
+This dataset contains about 7K tweet and their lables.
 
->Python Libraries used for this project
-
->> nltk
-
->> sklearn
-
-## Clean and Preprocess the tweet
-
-> 1. Remove patterns 
->>> Remove patterns from the data such as words starting from "@".
-> 2. Tokenize the tweet
->>> Convert the tweets into vectors of words.
-> 3. Stemming the tweet
->>> Reduce the word to its word stem or to the roots of the words.
-
-## Creating Wordcloud
-> A data visualization technique indicating the most frequent words appearing in the positive and negative tweets.
-## Extracting Features
-> Extract the important features from the list of words using CountVectorizer
-## Modeling
-> Building a model using RandomForestClassifier.
-
-> Using cross validation for evaluation of model
-
-> Checking model performance using ROC Curve and confusion Matrix.
-## Hyperparameter tuning
-> Creating the dictionary of the params for hyperparameter tuning.
-
-> Using Randomized Search Cross validation for finding the best parameters for our model.
-
-> Checking the model performance using the new parameters.
+## Approach taken to solve the problem
+1. Cleaning the data.
+2. Preprocess the data for further analysis.
+3. Visualize the data using various tools.
+4. Building the Random Forest model.
+5. Evaluate the model performance using cross validation, confusion matrix and ROC curve.
+6. Tuning the hyperparameter of the model for better performance.
